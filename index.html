@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akash Manna — Project Showcase</title>
+  
+  <!-- Primary SEO -->
+  <meta name="description" content="A showcase of websites and digital projects designed, built, and shipped by Akash Manna.">
+  <meta name="author" content="Akash Manna">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Akash Manna — Project Showcase">
+  <meta property="og:description" content="A collection of websites and digital experiences designed, built, and shipped by Akash Manna.">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-brand" aria-label="Akash - Home">AKASH</a>
+
+      <!-- Desktop Links -->
+      <ul class="nav-links">
+        <li><a href="#projects" class="nav-link active"><span class="nav-dot"></span>PROJECTS</a></li>
+        <li><a href="#about" class="nav-link">ABOUT</a></li>
+        <li><a href="#contact" class="nav-link">CONTACT</a></li>
+      </ul>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+      <ul class="mobile-nav-links">
+        <li><a href="#projects" class="mobile-nav-link">PROJECTS</a></li>
+        <li><a href="#about" class="mobile-nav-link">ABOUT</a></li>
+        <li><a href="#contact" class="mobile-nav-link">CONTACT</a></li>
+      </ul>
+      <div class="mobile-menu-footer">
+        <p>© 2026 Akash Manna</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+      </div>
+      <div class="container hero-container">
+        <span class="eyebrow fade-in">PROJECT SHOWCASE</span>
+        <h1 class="hero-title fade-in">Things I've Built.</h1>
+        <p class="hero-subtitle fade-in">
+          A collection of websites and digital experiences I've designed, built, and shipped.
+        </p>
+        <div class="hero-actions fade-in">
+          <a href="#projects" class="btn btn-primary">Explore Projects <span class="arrow-down">↓</span></a>
+          <a href="#about" class="btn btn-secondary">About Me <span class="arrow-right">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Intro Bar -->
+    <section class="intro-bar">
+      <div class="container intro-container">
+        <span class="intro-label">SELECTED WORK</span>
+        <span class="intro-count">05 PROJECTS</span>
+        <span class="intro-tags">WEB DESIGN · DEVELOPMENT · EXPERIMENTS</span>
+      </div>
+    </section>
+
+    <!-- Projects Showcase Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <header class="section-header fade-in">
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-subtitle">
+            A few things I've built across different ideas, industries, and design styles.
+          </p>
+        </header>
+
+        <!-- Dynamic Category Filters -->
+        <div class="filter-wrapper fade-in">
+          <div class="filter-container" id="filterContainer" role="tablist" aria-label="Project Categories">
+            <!-- Rendered by JavaScript -->
+          </div>
+        </div>
+
+        <!-- Projects Grid Container -->
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Dynamically populated via script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-card fade-in">
+          <div class="about-content">
+            <h2 class="about-heading">
+              Built by learning.<br>Improved by building.
+            </h2>
+            <p class="about-text">
+              I'm a developer who learns by building real projects. Each project is an opportunity to experiment with design, development, user experience, and new ideas.
+            </p>
+            
+            <div class="currently-building">
+              <span class="cb-label">CURRENTLY BUILDING →</span>
+              <span class="cb-dynamic" id="dynamicText">Web Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card fade-in">
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2 class="contact-heading">Let's build something.</h2>
+          <p class="contact-text">Want to explore the work or connect?</p>
+          <div class="contact-actions">
+            <a href="https://github.com/akashmanna2453-gif" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              GitHub ↗
+            </a>
+            <a href="https://wa.me/919967590265" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              WhatsApp ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-left">
+          <p>© 2026 Akash Manna</p>
+        </div>
+        <div class="footer-right">
+          <a href="https://github.com/akashmanna2453-gif" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://wa.me/919967590265" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Built with HTML, CSS &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla Script -->
+  <script src="script.js"></script>
+</body>
+</html>
