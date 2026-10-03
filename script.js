@@ -67,7 +67,8 @@ const PROJECTS_DATA = [
     category: "GAMING",
     type: "Website",
     description: "A futuristic gaming website built around a bold visual identity, immersive presentation and modern gaming aesthetics.",
-    url: "https://neon-arch.vercel.app/",
+    url: "https://gaming-steel-one.vercel.app/",
+
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
     tags: ["Dark Theme", "Gaming UI", "CSS Animations"],
     featured: false
