@@ -71,6 +71,17 @@ const PROJECTS_DATA = [
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
     tags: ["Dark Theme", "Gaming UI", "CSS Animations"],
     featured: false
+  },
+  {
+    number: "06",
+    title: "Salon Studio",
+    category: "SALON",
+    type: "Website",
+    description: "A premium salon website crafted to showcase beauty services, styling expertise, and a polished luxury brand experience for modern clients.",
+    url: "https://salon-zeta-murex.vercel.app/",
+    image: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1200&q=80",
+    tags: ["Beauty Brand", "Luxury UI", "Responsive"],
+    featured: false
   }
 ];
 
