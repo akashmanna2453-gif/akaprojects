@@ -83,6 +83,17 @@ const PROJECTS_DATA = [
     image: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1200&q=80",
     tags: ["Beauty Brand", "Luxury UI", "Responsive"],
     featured: false
+  },
+  {
+    number: "07",
+    title: "Noir Frames Studio",
+    category: "PHOTOGRAPHY",
+    type: "Portfolio",
+    description: "A cinematic photography studio website focused on timeless portraits, emotional storytelling, and a moody luxury aesthetic for weddings and editorial work.",
+    url: "https://noirframes.vercel.app/",
+    image: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80",
+    tags: ["Cinematic", "Wedding Stories", "Luxury Branding"],
+    featured: false
   }
 ];
 
